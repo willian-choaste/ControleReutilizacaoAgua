@@ -4,12 +4,20 @@ Este projeto IOT (Internet das Coisas) tem como o objetivo realizar a gestão da
 ![ODS 6 - Água potável e saneamento](images/ODS%206%20-%20%C3%81gua%20pot%C3%A1vel%20e%20saneamento.png)
 
 
-## Funcionalidades do sistema
-- Monitorar nível de água na cisterna;
-- Monitorar nível de água na caixa;
-- Monitorar nível de  TDS (Total de Sólidos Dissolvidos) na água;
-- Informar dados coletados através do monitoramento de forma visual;
-- Funcionar de modo automático, tendo opção para controle manual via aplicativo.
+## Requisistos Funcionais:
+- RF001 - Monitorar nível de água na cisterna.
+- RF002 - Monitorar nível de água na caixa.
+- RF003 - Monitorar nível de TDS na água.
+- RF004 - Informar dados coletados através do monitoramento de forma visual.
+- RF005 - Funcionar de modo automático, tendo opção para controle manual.
+
+## Requisitos não funcionais:
+- RNF001 - O sistema não deverá permitir ao usuário alterar o seu funcionamento.
+- RNF002 - sistema deve funcionar de forma autônoma, indicando ao usuário algumas possíveis tomadas de decisão.
+- RNF003 - O sistema deverá operar via interface Web.
+- RNF004 - O sistema deverá operar via interface Mobile.
+- RNF005 - O sistema deverá ser executado utilizando o módulo ESP32. 
+- RNF006 - O sistema deverá ser escrito utilizando a linguagem de programação C++.
 
 ## Diagrama de caso de uso
 ![Diagrama de caso de uso](images/Caso%20de%20Uso%20-%20Sistema%20de%20Controle%20e%20Monitoramento%20%C3%81gua%20da%20Chuva.png)
@@ -20,16 +28,16 @@ Este projeto IOT (Internet das Coisas) tem como o objetivo realizar a gestão da
 ## Arquitetura do projeto
 O projeto foi desenvolvido utilizando a [IDE PlatformIO](https://platformio.org/), pois esta atendia a necessidade de realizar a programação visando a utilização da placa ESP32.
 
-Abaixo esta a organização da estrutura do projeto.
+- Estrutura do projeto
 ![Arquitetura projeto](images/Arquitetura%20projeto.png)
 
-O projeto foi desenvolvido em linguagem c++. 
+- O projeto foi desenvolvido em linguagem c++. 
 ![Logo C++](images/logo%20c%2B%2B.png)
 
-Foi utilizada a placa ESP32 como harware de execução do software.
+- Foi utilizada a placa ESP32 como harware de execução do software.
 ![Pinout ESP32](images/pinout%20esp32%20nodemcu.png)
 
-Os aplicativos móvel e web fooram desenvolvidos utilizando a [Blynk Iot plataform](https://blynk.io/), que é voltada há aplicações em Internet das Coisas (Internet of Things - IoT), ela permite o desenvolvimento de interfaces para controle e monitoramento, coleta de dados de sensores, criação de visualizações gráficas e armazenamento de dados de forma automática na nuvem BlynkCloud. Também é possível através da plataforma o enviar notificações ao aplicativo.
+- Os aplicativos móvel e web fooram desenvolvidos utilizando a [Blynk Iot plataform](https://blynk.io/), que é voltada há aplicações em Internet das Coisas (Internet of Things - IoT), ela permite o desenvolvimento de interfaces para controle e monitoramento, coleta de dados de sensores, criação de visualizações gráficas e armazenamento de dados de forma automática na nuvem BlynkCloud. Também é possível através da plataforma o enviar notificações ao aplicativo.
 
 ![Arquitetura Blynk](images/Arquitetura%20de%20funcionamento%20do%20Blynk.png)
 
