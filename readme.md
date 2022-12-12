@@ -1,4 +1,4 @@
-# Protótipo sistema de controle e reutilização da água da chuva
+# Protótipo de Sistema de Controle e Monitoramento para Reutilização da Água da Chuva
 
 Este projeto IOT (Internet das Coisas) tem como o objetivo realizar a gestão da água da chuva, visando o melhor aproveitamento para água de acordo com sua qualidade, contribuindo assim com sexto Objetivo de Desenvolvimento Sustentável da ONU, com foco na gestão sustentável da água.
 ![ODS 6 - Água potável e saneamento](images/ODS%206%20-%20%C3%81gua%20pot%C3%A1vel%20e%20saneamento.png)
