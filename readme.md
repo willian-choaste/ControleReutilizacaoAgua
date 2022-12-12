@@ -29,9 +29,11 @@ Este projeto IOT (Internet das Coisas) tem como o objetivo realizar a gestão da
 O projeto foi desenvolvido utilizando a [IDE PlatformIO](https://platformio.org/), pois esta atendia a necessidade de realizar a programação visando a utilização da placa ESP32.
 
 - Estrutura do projeto
+
 ![Arquitetura projeto](images/Arquitetura%20projeto.png)
 
 - O projeto foi desenvolvido em linguagem c++. 
+
 ![Logo C++](images/logo%20c%2B%2B.png)
 
 - Foi utilizada a placa ESP32 como harware de execução do software.
